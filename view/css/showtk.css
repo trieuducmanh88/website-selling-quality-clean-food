@@ -1,0 +1,62 @@
+.thongtintk{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.39);
+    border: 1px solid #08672A;
+    border-radius: 10px;
+    padding: 20px;
+}
+.thongtintk >h1{
+    font-size: 25px;
+}
+.thongtintk >form >p{
+    font-size: 18px;
+    margin: auto;
+}
+.thongtintk >form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.thongtintk .row_content{
+    width: 480px;
+    margin: 10px ;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.thongtintk .row_content>input{
+    width: 350px;
+    height: 25px;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: 17px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.39);
+    margin-left: 10px;
+
+}
+.thongtintk .nuttk{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 270px;
+}
+.thongtintk .nuttk >input{
+    border-radius: 10px;
+    
+    padding: 5px;
+}
+.thongtintk .nuttk >a >input{
+    border-radius: 10px;
+    
+    padding: 5px;
+}

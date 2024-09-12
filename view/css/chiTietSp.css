@@ -1,0 +1,125 @@
+
+/* sản Phẩm chính */
+.san_pham_chinh{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 20px auto;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.39);
+}
+.san_pham_chinh .left_sp{
+    border: 1px solid #086729;
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+}
+.san_pham_chinh .left_sp >img{
+    height: 80%;
+    width: 100%;
+}
+.san_pham_chinh .left_sp .content_san_pham{
+    margin-top: 20px;
+    height: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.san_pham_chinh .left_sp .content_san_pham .danhGia_soLuongBan{
+    display: flex;
+    justify-content: space-between;
+}
+.san_pham_chinh .left_sp .content_san_pham .danhGia_soLuongBan>div>i{
+    color: yellow;
+}
+.san_pham_chinh .right_sp{
+    width: 60%;
+    height: 90%;
+    padding: 20px;
+}
+.san_pham_chinh .right_sp .dvt_gia{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;    
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.493);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.san_pham_chinh .right_sp .dvt_gia .gia{
+    color: #08672A;
+}
+.san_pham_chinh .right_sp >p{
+    height: 185px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.san_pham_chinh .right_sp .soLuong{
+    height: 20px;
+    width: 130px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+.san_pham_chinh .right_sp .soLuong >input{
+    height: 20px;
+    width: 30px;
+    border: 1px solid;
+    padding-left: 20px;
+
+}
+.san_pham_chinh .right_sp .nut_sp{
+    width: 380px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.san_pham_chinh .right_sp .nut_sp >input{
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    border: 1px solid #08672A;
+    color: black;
+}
+.chiTietSP{
+    width: 87%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.39);
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+.binhluan{
+    width: 87%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.39);
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+}
+.goi_y_sp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.39);
+}
+
+.goi_y_sp>p{
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #086729;
+}
+.goi_y_sp >article{
+    border: 1px solid #086729;
+    height: 0.1px;
+    width: 35%;
+}

@@ -1,0 +1,25 @@
+
+.login >form >p{
+    font-size: 20px;
+    color: red;
+    margin: 10px auto;
+}
+.login >form>div{
+    width: 410px;
+}
+.login >form .dangky{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: red;
+    float: left;
+}
+.login >form .nhaplai{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: red;
+    float: right;
+}

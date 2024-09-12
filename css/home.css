@@ -1,0 +1,43 @@
+.home{
+    width: 1300px;
+    height: auto;
+    margin: 20px auto;
+}
+.home .home_con{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.home .home_con >div{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 46%;
+}
+.home .home_bieudo >div{
+    width: 100%;
+}
+.home .home_bieudo{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 100%;
+}
+.home .home_bieudo >p{
+    margin: 0 auto;
+    padding: 13px;
+    width: 98%;
+}
+.home .home_bieudo .title{
+    background-color: #ccc;
+    border-radius: 10px 10px 0px 0px;
+}
+.home .home_con >div >p{
+    margin: 0 auto;
+    padding: 12px;
+    width: 96%;
+}
+.home .home_con >div .title{
+    background-color: #ccc;
+    border-radius: 10px 10px 0px 0px;
+}

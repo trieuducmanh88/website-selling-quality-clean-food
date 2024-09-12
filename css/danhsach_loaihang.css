@@ -1,0 +1,12 @@
+.row_loai table{
+    width: 100%;
+    margin: 20px auto;
+}
+.row_loai table th{
+    width: auto;
+    background-color: #ccc;
+}
+.row_loai table td{
+    padding: 10px 20px;
+    border: 1px solid;
+}
